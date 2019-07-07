@@ -1,4 +1,4 @@
-class AuthControllerController < ApplicationController
+class AuthController < ApplicationController
 
   def create # post
     user = User.find_by(username: params[:user][:username])

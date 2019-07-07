@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-dolma = User.create(firstName: "Dolma", lastName: "Gurung", username: "dol", password_digest: "dol", dob: "07-14-1994", sexualRepresentation: "she")
+dolma = User.create(firstName: "Dolma", lastName: "Gurung", username: "dol", password: "dol", dob: "07-14-1994", sexualRepresentation: "she")
